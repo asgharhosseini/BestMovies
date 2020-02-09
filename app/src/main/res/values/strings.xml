@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BestMovies</string>
+    <string name="search">Search</string>
+    <string name="profile">Profile</string>
+    <string name="home">Home</string>
+    <string name="genre">Genre</string>
+
+    <string name="movie_name">movie name</string>
+    <string name="movie_duration">movie duration</string>
+    <string name="search_movies_tv_series">search movies tv series</string>
+    <string name="showall">ShowAll</string>
+
+</resources>

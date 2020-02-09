@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/genre"
+    app:startDestination="@id/genreFragment">
+
+    <fragment
+        android:id="@+id/genreFragment"
+        tools:layout="@layout/fragment_genre"
+        android:name="ir.ah.app.bestmovies.future.genre.GenreFragment"
+        android:label="GenreFragment" >
+        <action
+            android:id="@+id/action_genreFragment_to_genreMoviesFragment2"
+            app:destination="@id/genreMoviesFragment2" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_genre_movies"
+        android:id="@+id/genreMoviesFragment2"
+        android:name="ir.ah.app.bestmovies.future.genre.GenreMoviesFragment"
+        android:label="GenreMoviesFragment" >
+        <action
+            android:id="@+id/action_genreMoviesFragment2_to_detailFragment2"
+            app:destination="@id/detailFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment2"
+        tools:layout="@layout/fragment_detail"
+        android:name="ir.ah.app.bestmovies.future.detail.DetailFragment"
+        android:label="DetailFragment" />
+</navigation>
